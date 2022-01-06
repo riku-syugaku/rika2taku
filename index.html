@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang = "ja">
+<head>
+<meta charset="utf-8">
+<title>理科２択テスト</title>
+
+<link rel = "stylesheet" href = "css/style.css">
+</head>
+<meta name="viewport"
+   content="width=320,
+      height=480,
+      initial-scale=1.0,
+      minimum-scale=1.0,
+      maximum-scale=2.0,
+      user-scalable=yes" />
+
+<body>
+
+<section class = "container">
+   
+<p id = "test-title">理科２択テスト</p>
+
+<section id = "modal" class = "hidden">
+    <p>合格！！よくできました。</p>
+    <a><img src="img/win.png"> </a>
+    <br>
+<button id = "close">問題選択へ</button>
+</section>
+
+<section id = "modal2" class = "hidden">
+    <img src="img/ng.png">
+    <br>
+    <p id = "answer">残念！！やりなおしです。</p>
+    <button id = "okay">OK</button>
+</section>
+
+<section id = "modal3" class = "hidden">
+ <p id = "isCorrected"></p>
+ <img src="img/ok.png"> 
+</section>
+
+
+
+<form>
+        <select name="selectbox" id ="selectbox">
+            <option value="">--問題選択--</option>
+            <option value="b-1">生物：植物</option>
+            <option value="b-2">生物：動物</option>
+            <!-- <option value="b-3">生物：遺伝</option> -->
+            <option value="Geo1">地学：大地</option>
+            <!-- <option value="Geo2">地学：天気</option>
+            <option value="Geo3">地学：天体</option> -->
+            <option value="Phy1">物理：光音力</option>
+            <!-- <option value="Phy2">物理：電気</option>
+            <option value="Phy3">物理：仕事</option> -->
+            <option value="Che1">化学：物質</option>
+            <!-- <option value="Che2">化学：化学変化</option>
+            <option value="Che3">化学：イオン</option> -->
+           
+        </select>
+
+        <!-- <select name="selectbox1"  id ="selectbox1">
+            <option value="">--地学--</option>
+            <option value="geo1">大地</option>
+            <option value="geo2">天気</option>
+            <option value="geo3">天体</option>
+        </select>
+
+        <select name="selectbox2"  id ="selectbox2">   
+            <option value="">--物理--</option>
+            <option value="p-1">光音力</option>
+            <option value="p-2">電気</option>
+            <option value="p-3">仕事</option>            
+        </select>
+
+        <select name="selectbox3"  id ="selectbox3">   
+            <option value="">--化学--</option>
+            <option value="c-1">物質</option>
+            <option value="c-2">化学変化</option>
+            <option value="c-3">イオン</option>
+        </select> -->
+        <input id="reset"  type="button" value="リセット" onclick="ClickR();"/>
+    </form>
+   
+<br>   
+<br>   
+    <div id ="Qnum">  </div> 
+    <p id ="question"> 問題を選択してください。</p>
+    <ul id = "choice1" class = "choices"></ul>   
+    
+
+
+</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+
+
+<script src = "js/main.js"></script>
+</body>
+
+</html>
