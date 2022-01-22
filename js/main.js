@@ -17,7 +17,7 @@ const isCorrected = document.getElementById('isCorrected');
 //modal.classList.remove('hidden');
 
 const quizSet = [
-  {q:'維管束が輪の形に並んでいるのが',c:['単子葉類','双子葉類']},
+  {q:'維管束が散らばって並んでいるのが',c:['単子葉類','双子葉類']},
   {q:'クモは昆虫類で',c:['ない','ある']},
   {q:'ミジンコは',c:['甲殻類','昆虫類']},
   {q:'軟体動物にあるのは？',c:['外とう膜','外骨格']},
