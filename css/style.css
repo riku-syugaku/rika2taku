@@ -12,7 +12,9 @@ body{
 }
 
 form{
-    display: flex;
+    display: inline-block;
+    margin-right:auto; margin-left:auto
+    
   }
 
 #genre{
@@ -25,15 +27,14 @@ form{
 
 select{
     font-size:20px;
-    float:center;
+    /* float:center; */
     border-radius:4px;
-    width :200px;
+    width :150px;
     text-align: center;
     padding: 10px;
     background-color: rgb(216, 212, 228);
     margin-bottom: 15px;
     margin-right:25px;
-
 }
 
 
