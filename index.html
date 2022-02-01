@@ -32,34 +32,59 @@
  <img src="img/ok.png"> 
 </section>
 
+    
+    <form>
+    <select name="selectbox" id ="selectbox">
+        <option value="">--物理--</option>
+        <option value="Phy1">光音力</option>
+        <option value="Phy2">音</option>
+        <option value="Phy3">電流</option>
+        <option value="Phy4">磁界</option>
+        <option value="Phy5">仕事</option>
+        <option value="Phy6">エネルギー</option>
+    </select>
+
+    <select name="selectbox1" id ="selectbox1">
+        <option value="">--化学--</option>
+        <option value="Che1">物質</option>
+        <option value="Che2">密度</option>
+        <option value="Che3">化学変化１</option>
+        <option value="Che4">化学変化２</option>
+        <option value="Che5">イオン</option>
+        <option value="Che6">酸とアルカリ</option>
+        <!-- <option value="Che7">試験紙・試験薬</option> -->
+
+    </select>
+    <select name="selectbox2" id ="selectbox2">
+        <option value="">--生物--</option>
+        <option value="b-1">植物</option>
+        <option value="b-2">動物の分類</option>
+        <option value="b-3">消化と吸収</option>
+        <option value="b-4">遺伝</option>
+    </select>
+    <select name="selectbox3" id ="selectbox3">
+        <option value="">--地学--</option>
+        <option value="Geo1">地震</option>
+        <option value="Geo2">地層</option>
+        <option value="Geo3">天気１</option>
+        <option value="Geo4">天気２</option>
+        <option value="Geo5">星の運動</option>
+        <option value="Geo6">金星と月</option>
+        
+    </select>
+</form>
 
 
-<form>
-        <select name="selectbox" id ="selectbox">
-            <option value="">--問題選択--</option>
-            <option value="b-1">生物：植物</option>
-            <option value="b-2">生物：動物</option>
-            <!-- <option value="b-3">生物：遺伝</option> -->
-            <option value="Geo1">地学：大地</option>
-            <option value="Geo2">地学：天気</option>
-            <option value="Geo3">地学：天体</option>
-            <option value="Phy1">物理：光音力</option>
-            <option value="Phy2">物理：電気</option>
-            <option value="Phy3">物理：仕事</option>
-            <option value="Che1">化学：物質</option>
-            <option value="Che2">化学：化学変化</option>
-            <option value="Che3">化学：イオン</option>
-           
-        </select>
+<input id="reset"  type="button" value="リセット" onclick="ClickR();"/>
 
-        <input id="reset"  type="button" value="リセット" onclick="ClickR();"/>
-    </form>
-   
+
+
+
 <br>   
 <br>   
-    <div id ="Qnum">  </div> 
-    <p id ="question"> 問題を選択してください。</p>
-    <ul id = "choice1" class = "choices"></ul>   
+<div id ="Qnum">  </div> 
+<p id ="question"> 問題を選択してください。</p>
+<ul id = "choice1" class = "choices"></ul>   
 
 </section>
 
