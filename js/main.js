@@ -666,7 +666,7 @@ else if(selectbox.value === "b-3"){
     Quizset();
   }
   else if(selectbox.value === "Phy4"){
-    QuizBuild = Phy3;
+    QuizBuild = Phy4;
     end = QuizBuild.length;
     Quizset();
   }
