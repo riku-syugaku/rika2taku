@@ -619,38 +619,7 @@ let end = 0;
 let QuizBuild = 0;
 
 selectbox.onchange = function(){
-if(selectbox.value === "b-1"){
-  QuizBuild = quizSet;
-  end = QuizBuild.length;
-  Quizset();
-  }
-else if(selectbox.value === "b-2"){
-  QuizBuild = Bio2;
-  end = QuizBuild.length;
-  Quizset();
-  }
-else if(selectbox.value === "b-3"){
-  QuizBuild = Bio3;
-  end = QuizBuild.length;
-  Quizset();
-  }
-  else if(selectbox.value === "Geo1"){
-    QuizBuild = Geo1;
-    end = QuizBuild.length;
-    Quizset();
-  }
-  else if(selectbox.value === "Geo2"){
-    QuizBuild = Geo2;
-    end = QuizBuild.length;
-    Quizset();
-  }
-  else if(selectbox.value === "Geo3"){
-    QuizBuild = Geo3;
-    end = QuizBuild.length;
-    Quizset();
-  }
-
-  else if(selectbox.value === "Phy1"){
+ if(selectbox.value === "Phy1"){
     QuizBuild = Phy1;
     end = QuizBuild.length;
     Quizset();
