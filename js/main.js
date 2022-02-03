@@ -665,22 +665,12 @@ else if(selectbox.value === "b-3"){
     end = QuizBuild.length;
     Quizset();
   }
+  else if(selectbox.value === "Phy4"){
+    QuizBuild = Phy3;
+    end = QuizBuild.length;
+    Quizset();
+  }
 
-  else if(selectbox1.value === "Che1"){
-    QuizBuild = Che1;
-    end = QuizBuild.length;
-    Quizset();
-  }
-  else if(selectbox1.value === "Che2"){
-    QuizBuild = Che2;
-    end = QuizBuild.length;
-    Quizset();
-  }
-  else if(selectbox1.value === "Che3"){
-    QuizBuild = Che3;
-    end = QuizBuild.length;
-    Quizset();
-  }
   else{
     location.reload();
   }
